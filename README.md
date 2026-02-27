@@ -1,5 +1,5 @@
 # aplikasi_2306032_pertama
-
+Melalui tugas pertama ini, mahasiswa dapat memahami dasar pembuatan aplikasi menggunakan Flutter serta mengenal struktur project dan proses menjalankan aplikasi mobile.
 A new Flutter project.
 
 ## Getting Started
