@@ -5,6 +5,7 @@ void main() {
 }
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,9 +32,9 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   children: [
                     Image.network(
-                      "assets/images/IMG-20230801-WA0086.jpg",
-                      width: 120,
-                      height: 200,
+                      "https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg",
+                      width: 200,
+                      height: 120,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 10),
