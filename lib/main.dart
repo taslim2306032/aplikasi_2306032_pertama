@@ -24,7 +24,13 @@ class HomePage extends StatelessWidget {
                 children: [
                   Icon(Icons.archive),
                   SizedBox(width: 10),
-                  Text("Artikel Baru"),
+                  Text(
+                    "Artikel Baru",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
 
@@ -38,7 +44,15 @@ class HomePage extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                     SizedBox(height: 10),
-                    Text("HALLO NAMA SAYA TASLIM GANTENG"),
+                    Text(
+                      "HALLO NAMA SAYA TASLIM GANTENG",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red[800],
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: Text(
@@ -75,7 +89,11 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("John Doe"),
+                            Text(
+                              "John Doe",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(height: 5),
                             Text("Lorem ipsum dolor sit amet."),
                           ],
                         ),
@@ -87,7 +105,11 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Mary Doe"),
+                            Text(
+                              "Mary Doe",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(height: 5),
                             Text("Lorem ipsum dolor sit amet."),
                           ],
                         ),
@@ -99,7 +121,11 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Alex Doe"),
+                            Text(
+                              "Alex Doe",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(height: 5),
                             Text("Lorem ipsum dolor sit amet."),
                           ],
                         ),
@@ -111,7 +137,11 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Jane Doe"),
+                            Text(
+                              "Jane Doe",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(height: 5),
                             Text("Lorem ipsum dolor sit amet."),
                           ],
                         ),
@@ -123,7 +153,11 @@ class HomePage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Michael Doe"),
+                            Text(
+                              "Michael Doe",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(height: 5),
                             Text("Lorem ipsum dolor sit amet."),
                           ],
                         ),
